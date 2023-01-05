@@ -12,10 +12,6 @@ class Client:
     def access_key(self):
         return self._access_key
 
-    def get_movie_quote(self, id):
-        res = requests.get(URLs.movie_quote_url(id), headers=self._headers)
-        res.raise_for_status()
-        return res
 
     # this end point returns 500, rather than the standard 404, 
     # thus impossible to differentiate "not found" from "server side error"
