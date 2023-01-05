@@ -1,0 +1,35 @@
+*.py[co]
+
+# Packages
+*.egg
+*.eggs
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+
+# Docs by Sphinx
+_build
+
+# Environment
+.env/
+.venv/
+env/
+venv/
+
+# Installer logs
+pip-log.txt
+
+
+
+# IDE files
+.idea
+.vscode
+.DS_Store
